@@ -14,6 +14,7 @@ import { app, server } from "./lib/socket.js";
 dotenv.config();
 
 const PORT = process.env.PORT;
+// console.log(PORT, "ederp");
 const __dirname = path.resolve();
 
 app.use(express.json());
